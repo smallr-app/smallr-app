@@ -205,7 +205,7 @@ p {
 
 .hero-visual {
 	position: relative;
-	min-height: 32rem;
+	min-height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -213,15 +213,7 @@ p {
 
 
 .hero-visual::before {
-	content: "";
-	position: absolute;
-	inset: 12% 4% 8% 4%;
-	border-radius: 40px;
-	background:
-		radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.08), transparent 42%),
-		linear-gradient(180deg, rgba(242, 238, 227, 0.04), rgba(242, 238, 227, 0.01));
-	border: 1px solid rgba(255, 255, 255, 0.04);
-	filter: blur(0.2px);
+	content: none;
 }
 
 .hero-visual::after {
@@ -246,19 +238,20 @@ p {
 
 .main-shot {
 	width: min(100%, 29rem);
-	padding: 0.8rem;
-	border-radius: 36px;
-	background: linear-gradient(180deg, rgba(28, 26, 22, 0.76), rgba(15, 14, 12, 0.92));
-	border: 1px solid rgba(255, 255, 255, 0.07);
+	padding: 0;
+	border-radius: 28px;
+	background: none;
+	border: none;
 	box-shadow: var(--shadow);
-	transform: rotate(-2deg);
+	overflow: hidden;
+	transform: none;
 }
 
 .post-image {
 	display: block;
 	width: 100%;
 	aspect-ratio: 1;
-	border-radius: 28px;
+	border-radius: 0;
 	object-fit: cover;
 	background: #0f0e0b;
 }
@@ -381,8 +374,9 @@ details[open] summary::after {
 	}
 
 	.hero-visual {
-		min-height: 32rem;
-		justify-content: center;
+		min-height: auto;
+		justify-content: flex-start;
+		padding-top: 0.5rem;
 	}
 
 	.simple-grid {

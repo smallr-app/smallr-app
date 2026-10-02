@@ -4,11 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>DMPR Privacy Policy</title>
+	<title>Smallr Privacy Policy</title>
 	<meta name="description"
-		content="DMPR privacy policy. Learn how the monochrome camera app handles camera access, photo saving, local storage, metadata, and sharing without accounts, tracking, or backend networking.">
+		content="How Smallr handles Photos access, on-device video conversion, local storage, and videos stored in iCloud.">
 	<meta name="robots" content="index, follow">
-	<link rel="canonical" href="https://dmpr.omitlens.com/privacy.html">
+	<link rel="canonical" href="https://omitlens.com/apps/smallr/privacy.html">
 
 	<script type="application/ld+json">
 	{
@@ -18,14 +18,14 @@
 			{
 				"@type": "ListItem",
 				"position": 1,
-				"name": "DMPR",
-				"item": "https://dmpr.omitlens.com/"
+				"name": "Smallr",
+				"item": "https://omitlens.com/apps/smallr/"
 			},
 			{
 				"@type": "ListItem",
 				"position": 2,
 				"name": "Privacy Policy",
-				"item": "https://dmpr.omitlens.com/privacy.html"
+				"item": "https://omitlens.com/apps/smallr/privacy.html"
 			}
 		]
 	}
@@ -33,136 +33,56 @@
 </head>
 
 <body>
-	<h1>DMPR Privacy Policy</h1>
+	<nav><a href="./index.html">Smallr</a> | <a href="./tos.html">Terms of Service</a></nav>
+	<h1>Smallr Privacy Policy</h1>
+	<p><strong>Last updated:</strong> 2026-10-02</p>
+	<p>This policy explains how Smallr (the "App"), bundle identifier me.linjun.Smallr, handles
+		information on iPhone, iPad, and Mac. Smallr makes smaller video copies using on-device
+		conversion. No separate app account is required.</p>
 
-	<p><strong>Last updated:</strong> 2026-06-09</p>
+	<h2>1. Photos access and processing</h2>
+	<p>Smallr accesses selected videos to analyze their properties, estimate output size, convert
+		them, and compare the result. Conversion runs locally; videos are not uploaded to a
+		developer-operated server for conversion.</p>
+	<p>On iPhone and iPad, Photos permission lets Smallr browse videos by size. You can also choose
+		a single video with the system picker. Available videos depend on the access you grant.
+		Saving a converted copy to Photos requires permission to add media.</p>
+	<p>The App does not record new camera or microphone media. Selected videos may already contain
+		audio and metadata, which may be included in converted files.</p>
 
-	<p>This Privacy Policy explains how DMPR (the "App"), bundle identifier me.linjun.Dampr, handles
-		information when you install and use the App. DMPR is a monochrome camera app that provides a live
-		viewfinder, photo capture, local monochrome processing, recent-photo management, and user-initiated
-		sharing.</p>
+	<h2>2. Local storage</h2>
+	<p>Smallr stores working video copies, converted output, conversion records, and cached library
+		information on your device for previews, task recovery, and library browsing. Records may
+		include filenames, file references, Photos identifiers, video properties, settings, and job status.</p>
+	<p>Saved copies remain in Photos or in the export location you select on Mac.</p>
 
-	<p>DMPR is designed to work locally on your device. It does not require a separate account, does not use a
-		backend service for normal app operation, and does not include third-party analytics or tracking SDKs.</p>
+	<h2>3. iCloud and exported files</h2>
+	<p>Videos stored in iCloud Photos may need to be downloaded through Apple's services before
+		conversion. Saving or deleting videos in Photos may sync across devices with iCloud Photos
+		enabled. Apple's services are governed by Apple's privacy practices.</p>
+	<p>If you export a file to a cloud-synced location on Mac, that service handles the file under
+		its own privacy practices.</p>
 
-	<p>If you need to contact us about privacy, please email: <a
-			href="mailto:dmpr+support@omitlens.com">dmpr+support@omitlens.com</a>.</p>
+	<h2>4. Originals and deletion</h2>
+	<p>Saving a new copy does not delete the original. For videos selected through the library
+		browser on iPhone and iPad, you may choose to save a converted copy and delete the original.
+		Deletion requires confirmation and occurs only after saving succeeds.</p>
+	<p>Deleted originals move to Recently Deleted. Deletion may sync through iCloud Photos, and
+		storage may not be freed immediately. Mac exports leave originals untouched.</p>
+	<p>Deleting Smallr does not delete saved or exported videos. Removing the App removes app-local
+		data subject to normal operating system behavior.</p>
 
-	<h2>1. Data and device features the App uses</h2>
+	<h2>5. Your choices and security</h2>
+	<p>You can change Photos permissions in system settings, manage saved videos in Photos, and
+		manage exported files using system file tools. Smallr relies on Apple's system protections
+		for app storage and photo library access.</p>
 
-	<ul>
-		<li><strong>Camera:</strong> The App uses the device camera to provide a live monochrome viewfinder and
-			capture photos. Permission prompt text: "DMPR needs camera access to provide a live monochrome viewfinder
-			and capture photos."</li>
-		<li><strong>Photo Library:</strong> The App can save finished monochrome photos to the system photo library
-			and can request photo library access so you can manage photos saved from the App. Permission prompt text:
-			"DMPR saves your finished monochrome photos to the system photo library." and "DMPR needs photo library
-			access to let you manage photos saved from the app."</li>
-		<li><strong>Local image processing:</strong> The App applies monochrome filters and tone adjustments locally
-			on your device using Apple system imaging frameworks. Photos are not sent to a server for processing.</li>
-		<li><strong>Local storage:</strong> The App stores recent captured photos and an index of those recent photos
-			inside the App's local container on your device. It may also store simple local preferences, such as camera
-			control placement.</li>
-		<li><strong>Photo metadata:</strong> The App may embed recipe information in saved JPEG files, such as the
-			App name and selected filter, look, and tone. This metadata travels with the image file if you export or
-			share that file.</li>
-		<li><strong>Sharing:</strong> The App can present the system share sheet when you choose to share a photo.
-			The destination you choose, such as another app or service, handles the shared data under its own terms and
-			privacy practices.</li>
-	</ul>
+	<h2>6. Children</h2>
+	<p>We do not knowingly collect personal information from children under 13.</p>
 
-	<h2>2. What the App collects or stores</h2>
-
-	<ul>
-		<li><strong>Photos you capture:</strong> Captured images can be stored in the App's local recents area and,
-			when you save them, in your system photo library.</li>
-		<li><strong>Recent-photo index data:</strong> The App stores local metadata needed to show and manage recent
-			photos, such as file references and recipe details.</li>
-		<li><strong>Recipe metadata:</strong> Saved images may include embedded metadata describing the selected
-			monochrome recipe, including filter, look, and tone.</li>
-		<li><strong>Preferences:</strong> The App may store local settings, such as the preferred side for camera
-			controls in compact layouts.</li>
-	</ul>
-
-	<p>The App does not create user accounts and does not collect account credentials, payment card details,
-		location data, contacts, or microphone recordings.</p>
-
-	<h2>3. How the App uses and shares data</h2>
-
-	<p>The App uses camera access, image processing, local storage, photo library access, and sharing only to provide
-		its core camera features: preview, capture, process, save, manage, and share monochrome photos.</p>
-
-	<p>DMPR does not transmit your photos, local recent-photo index, preferences, or recipe metadata to a backend
-		service during normal app operation. The App does not include third-party analytics, advertising, tracking,
-		or crash-reporting SDKs.</p>
-
-	<p>If you choose to share a photo through the system share sheet, the selected destination may receive the photo
-		and any metadata embedded in the file. That sharing is initiated by you and is outside DMPR's control after
-		you select the destination.</p>
-
-	<h2>4. Third-party services and SDKs</h2>
-
-	<p>The App uses Apple system frameworks, such as AVFoundation, Photos, CoreImage, ImageIO, UIKit, and related
-		system APIs. DMPR does not include third-party analytics or tracking SDKs.</p>
-
-	<p>The App does not currently offer in-app purchases, subscriptions, separate app accounts, NFC features, cloud
-		sync, push notifications, location features, contacts access, or backend networking.</p>
-
-	<h2>5. Data retention and deletion</h2>
-
-	<p>Photos saved to the system photo library remain in your photo library until you delete them using the Photos
-		app or other system tools. Deleting DMPR does not automatically delete photos already saved to your photo
-		library.</p>
-
-	<p>Photos and index data stored inside the App's local container are stored on your device. Deleting the App from
-		your device removes app-local data managed by iOS, subject to normal system behavior.</p>
-
-	<p>Because DMPR does not operate a user-account backend, we do not maintain a server-side account database for
-		you to request deletion from.</p>
-
-	<h2>6. Your privacy rights</h2>
-
-	<ul>
-		<li><strong>Access:</strong> You can access saved photos in the Photos app and recent app photos through the
-			App interface where available.</li>
-		<li><strong>Deletion:</strong> Delete photos from the Photos app to remove copies saved to your system photo
-			library. Delete the App to remove app-local data stored in its container.</li>
-		<li><strong>Export:</strong> You can export or share photos using the system share sheet when the App offers
-			that action.</li>
-	</ul>
-
-	<p>If you need assistance with privacy questions, contact <a
-			href="mailto:dmpr+support@omitlens.com">dmpr+support@omitlens.com</a>.</p>
-
-	<h2>7. Security</h2>
-
-	<p>DMPR stores app data locally on your device and relies on iOS system protections for app containers and photo
-		library access. No method of storage is perfect, but the App is designed to avoid unnecessary collection or
-		transmission of your photos and related data.</p>
-
-	<h2>8. Children</h2>
-
-	<p><strong>App Store age rating:</strong> 4+. The App is appropriate for users aged 4 and older according to App
-		Store guidelines.</p>
-	<p>We do not knowingly target or collect personal information from children under 13.</p>
-
-	<h2>9. Changes to this Privacy Policy</h2>
-
-	<p>We may update this policy to reflect changes in the App or applicable law. The "Last updated" date at the top
-		indicates when this document was last revised.</p>
-
-	<h2>10. App permissions and usage strings</h2>
-
-	<ul>
-		<li>Camera: "DMPR needs camera access to provide a live monochrome viewfinder and capture photos."</li>
-		<li>Photo Library Additions: "DMPR saves your finished monochrome photos to the system photo library."</li>
-		<li>Photo Library: "DMPR needs photo library access to let you manage photos saved from the app."</li>
-	</ul>
-
-	<h2>11. Contact</h2>
-
-	<p>If you have questions, requests, or privacy concerns, email: <a
-			href="mailto:dmpr+support@omitlens.com">dmpr+support@omitlens.com</a>.</p>
+	<h2>7. Changes and contact</h2>
+	<p>We may update this policy as the App changes. The date above indicates the latest revision.
+		For privacy questions or requests, visit <a href="https://omitlens.com/">OmitLens</a>.</p>
 
 </body>
 

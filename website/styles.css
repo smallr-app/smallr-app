@@ -250,9 +250,10 @@ p {
 .post-image {
 	display: block;
 	width: 100%;
-	aspect-ratio: 1;
+	height: auto;
+	aspect-ratio: 660 / 1434;
 	border-radius: 0;
-	object-fit: cover;
+	object-fit: contain;
 	background: #0f0e0b;
 }
 
@@ -280,6 +281,7 @@ p {
 .app-icon {
 	display: block;
 	width: 100%;
+	height: auto;
 	aspect-ratio: 1;
 	border-radius: 24px;
 	object-fit: cover;
@@ -364,6 +366,44 @@ details[open] summary::after {
 
 .final-actions {
 	justify-content: center;
+}
+
+.hero .main-shot {
+	max-width: 18rem;
+}
+
+.app-store-link {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.simple-grid {
+	gap: 2rem;
+}
+
+.simple-grid p {
+	margin-top: 0.7rem;
+}
+
+.site-footer {
+	justify-content: flex-start;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	padding-bottom: 2rem;
+}
+
+.site-footer a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+}
+
+a:focus-visible {
+	outline: 2px solid var(--text);
+	outline-offset: 4px;
 }
 
 @media (max-width: 1080px) {
